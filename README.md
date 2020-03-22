@@ -1,4 +1,3 @@
-# Tema-Sperneac-Sergiu-12232-
 Tema 3 - Problema 7 
 
 #include <stdio.h>
