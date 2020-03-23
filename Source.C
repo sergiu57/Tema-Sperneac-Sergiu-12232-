@@ -1,18 +1,24 @@
+//Problema 3 - Problema Prezenta
+/*
+Sa se realizeze un program care interschimba 2 valori folosind
+un pointer ca variabila auxiliara.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
 int main()
 {
-	int x, c = 0, i, k;
-	printf("x=");
-	scanf("%d", &x);
-	for (i = 1; i <= x; i++)
-	{
-		for (k = 0; k <= 7; k++)
-			if (1 & (i >> k))
-				c++;
-	}
-	printf("%d\n", c);
+	int y, z, *x;
+	x = (int *)malloc(sizeof(int));
+	printf("y=");
+	scanf("%d", &y);
+	printf("z=");
+	scanf("%d", &z);
+	*x = y;
+	y = z;
+	z = *x;
+	printf("y=%d b=%d\n", y, z);
 	system("pause");
 	return 0;
 }
