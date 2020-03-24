@@ -1,4 +1,4 @@
-//Problema 7 
+//Problema 7 - Problema Tema
 /*Se da un numar natural N. 
 Sa se afiseze suma bitiilor fiecarui numar de la 1 la N.
 */
