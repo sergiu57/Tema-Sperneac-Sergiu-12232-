@@ -1,7 +1,7 @@
 //Problema 3 - Problema Prezenta
 /*
-Sa se realizeze un program care interschimba 2 valori folosind
-un pointer ca variabila auxiliara.
+Sa se realizeze un program care interschimba 2 valori 
+folosind un pointer ca variabila auxiliara.
 */
 
 #include <stdio.h>
