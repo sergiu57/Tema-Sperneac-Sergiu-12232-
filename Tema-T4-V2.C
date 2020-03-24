@@ -1,10 +1,7 @@
 //Problema 4 - Problema Tema
 /*
-Sa se realizeze un program care imi transforma un numar
-zecimal intr-un numar binar, cifrele binare vor fi insiruite intr-
-un sir de elemente folosind pointer-ul.
-(In aceasta situatie fie se poate folosii instructiunea realloc fie se
-	pot creea liste inlantuite)
+Sa se realizeze un program care imi transforma un numar zecimal intr-un numar binar,
+cifrele binare vor fi insiruite intr-un sir de elemente folosind pointer-ul.
 */
 
 #include <stdio.h>
